@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  padding-left: auto;
+  padding-right: auto;
+  display: flex;
+  height: 97px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gschool {
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.banner-button {
+  padding: 0 12px;
+  color: black;
+  display: flex;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.banner-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.single-button {
+  margin: 0 12px;
+}
+
+.single-button:hover {
+  color: #2c44aa;
+}
+
+.right-button {
+  border: lightgray solid 1px;
+  background-color: transparent;
+  padding: 6px 26px;
+  font-size: 13px;
+  font-weight: lighter;
+  transition: .4s;
+}
+
+.right-button:hover {
+  background-color: #2c44aa;
+  color: beige
+}
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.spoqahansans * {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.nanumgothiccoding * {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#videoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#videoIFrame {
+  width: 100vw;
+  height: 100vw;
+}
+
+.middle-text {
+  text
+}
