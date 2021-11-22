@@ -88,5 +88,15 @@ a {
 }
 
 .middle-text {
-  text
+  display: inline;
+  text-align: center;
+}
+
+.middle-text-style {
+  font-weight: lighter;
+}
+
+.middle-text-spacing {
+  padding: 0;
+  margin: 0;
 }
