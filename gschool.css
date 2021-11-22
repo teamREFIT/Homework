@@ -100,3 +100,29 @@ a {
   padding: 0;
   margin: 0;
 }
+
+.bottom-section {
+  display: flex;
+}
+
+.square {
+
+  padding: 24px;
+  color: rgb(255, 255, 255);
+  width: 346.66px;
+  height: 221.36
+}
+
+.strong {
+  font-size: 16px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.light {
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 0;
+  margin: 4px 0;
+  text-align: left;
+}
