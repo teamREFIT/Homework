@@ -31,7 +31,7 @@ a {
   color: black;
   display: flex;
   font-size: 15px;
-  font-weight: lighter;
+  /* font-weight: lighter; */
 }
 
 .banner-button a {
@@ -103,6 +103,9 @@ a {
 
 .bottom-section {
   display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  margin-top: 75px;
 }
 
 .square {
@@ -110,7 +113,6 @@ a {
   padding: 24px;
   color: rgb(255, 255, 255);
   width: 346.66px;
-  height: 221.36
 }
 
 .strong {
@@ -125,4 +127,10 @@ a {
   padding: 0;
   margin: 4px 0;
   text-align: left;
+}
+
+.arrow-text {
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 0 0 15px 0;
 }
